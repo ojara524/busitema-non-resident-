@@ -1,0 +1,124 @@
+
+body{
+    
+    background-color: cadetblue;  
+    
+}
+header{
+    height: 100px;
+    background-color: burlywood;
+}
+
+.busit{
+    height: 100px;
+    float: left;
+    width: 350px;
+    border-radius: 30px;
+
+
+ }
+ .bui{
+     height: 450px;
+     float: left;
+ }
+ h1{
+     text-align: center;
+     color: blue;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 40px;
+ }
+ main{
+     height: 500px;
+   background-color: rgba(17, 131, 27, 0.349);
+   margin-top: 10px;
+   background-repeat: no-repeat;
+    position: relative; 
+    background-size: cover;
+   background-image: url(hostels.jpg);
+ }
+ .HED{
+     text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 30px;
+     color: rgb(139, 0, 0);
+ }
+ p{
+     text-align: center;
+     font-size: 23px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ h2{
+    text-align: center;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+ }
+ nav{
+     height: 40px;
+     background-color: rgba(39, 4, 4, 0.219);
+     margin-top: 10px;
+     text-align: center;
+    }
+    a{
+        padding-top: 20px;
+        color: white;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        font-size: 30px;
+        text-decoration: none;
+         
+    }
+    /* fadein and out rules, at first 1, 100 and finally zero which will make it disappear*/
+    @keyframes fade-inout{
+        0%{opacity: 1;}
+        100%{opacity:0;} 
+    }
+
+     /* target the div in question */
+    .fade-in-fade-out{
+         animation: fade-inout 5s infinite alternate;
+         font-size: 50px;
+         text-align: center;
+         color:red;
+         /* padding-top: 10px; */
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+ 
+    .fade1{
+        animation: fade-inout 3s infinite alternate;
+        font-size: 70px;
+        text-align: center;
+        color:yellow;
+        padding-top: 10px; 
+    }
+    .fade2{
+        animation: fade-inout 7s infinite alternate;
+        font-size: 60px;
+        text-align: center;
+        color:blue;
+        padding-top: 10px; 
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .fade3{
+        animation: fade-inout 5s infinite alternate;
+        font-size: 60px;
+        text-align: center;
+        color:yellow;
+        padding-top: 10px; 
+    }
+    
+    
+.all{
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 1345px; */
+    /* background-size: cover; */
+}
+
+html{
+    height: 100%;
+    background-color: darkcyan;
+}
+
+/* DROP DOWWN */
+  

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>about</title>
+    <style>
+       body{
+           background-color: purple;
+           background-image: url(ree.jpg); 
+           background-repeat: no-repeat;
+            position: relative;
+           background-size: cover;
+       }
+
+       h1{
+          
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           /* color: white; */
+            text-align: center;
+       }
+       img{
+           text-align: center;
+           height: 280px;
+           width: 500px;
+           border-radius: 50px;
+           
+       }
+       header{
+           text-align: center;
+           background-color: rgba(131, 25, 7, 0.534);
+           margin-top: 10px;
+       }
+       main{
+           height: 680px;
+           width: 1000px;
+           margin-left: 100px;
+           background-color: rgba(70, 107, 107, 0.301);
+       }
+       .FOOT{
+           height: 100px;
+           background-color: rgba(105, 146, 97, 0.534);
+           font-size: 15px;
+           color: white;
+       }
+       .middle{
+           height: 230px; 
+           color:whitesmoke;
+           font-size: 15px;
+       }
+       a{
+           
+           text-align: center;
+           color: black;
+           font-size: 25px;
+       }
+       p{
+           font-size: 25px;
+           text-align: center;
+       }
+        /* fadein and out rules, at first 1, 100 and finally zero which will make it disappear*/
+    @keyframes fade-inout{
+        0%{opacity: 1;}
+        100%{opacity:0;} 
+    }
+
+     /* target the div in question */
+     .fade{
+        animation: fade-inout 1s infinite alternate;
+        font-size: 30px;
+        text-align: center;
+        color: red;
+         
+    }
+
+    </style>
+</head>
+<body>
+    <main> <header><img id="host" src="hostels.jpg" alt=""></header>
+        <div class="middle">
+    
+    <h1>BUSITEMA UNIVERSITY NON RESIDENT STUDENT'S ASSOCIATION WAS FORMED IN 2010</h1>
+     <h1><i> At busitema University there are <b> 10 </b>hostels outside campus</i> </h1>
+
+    </div>
+     <Div class="FOOT">
+     <H1>The current non-resident representative is Eliacu Solomon</H1>
+    </Div>
+   <p> <a href="index.html" class="btn btn-warning" role="button"> Click </a><b class="fade"> here to go back to Homepage</b></p>
+    </main>
+    </body>
+</html>
